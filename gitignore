@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+
+# Reports
+reports/
+allure-results/
+allure-report/
+
+# Playwright
+playwright/.cache/
+
+# OS
+.DS_Store
+Thumbs.db
