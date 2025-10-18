@@ -1,0 +1,15 @@
+# Ignorar dependencias y caché
+node_modules/
+__pycache__/
+.pytest_cache/
+venv/
+.env
+.DS_Store
+*.log
+
+# Ignorar archivos de reportes generados
+report.html
+mochawesome-report/
+
+# Ignorar configuraciones locales
+.vscode/
