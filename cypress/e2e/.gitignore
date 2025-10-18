@@ -1,0 +1,44 @@
+# ===========================================
+# 🧩 CONFIGURACIÓN .GITIGNORE PARA QA / CYPRESS
+# ===========================================
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias y módulos
+node_modules/
+package-lock.json
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Salidas de Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Reportes generados
+report.html
+mochawesome-report/
+test-output/
+logs/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Configuración del IDE
+.vscode/
+.idea/
+
+# Archivos del sistema operativo
+desktop.ini
+
+# Otros
+dist/
+build/
+coverage/
